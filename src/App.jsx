@@ -32,7 +32,6 @@ function App() {
 
     if (allHeld && allEqual) {
       setTenzies(true)
-      console.log(tenzies)
     }
   }, [numbers])
 
